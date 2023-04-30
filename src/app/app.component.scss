@@ -1,0 +1,13 @@
+mat-toolbar {
+  header {
+    cursor: pointer;
+  }
+}
+
+mat-drawer-container {
+  height: calc(100% - 64px);
+}
+
+mat-drawer {
+  padding: 20px;
+}
