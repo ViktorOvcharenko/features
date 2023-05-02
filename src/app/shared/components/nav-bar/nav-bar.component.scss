@@ -1,8 +1,15 @@
-a {
-  cursor: pointer;
-  text-decoration: none;
+:host {
+  display: flex;
+  flex-direction: column;
 
-  &:hover {
-    opacity: .8;
+  a {
+    color: rgba(0, 0, 0, .87);
+    cursor: pointer;
+    text-decoration: none;
+    padding-bottom: 20px;
+
+    &:hover {
+      opacity: .8;
+    }
   }
 }

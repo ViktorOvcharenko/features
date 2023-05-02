@@ -17,6 +17,13 @@ const routes: Routes = [
         './features/confirm-decorator/components/user-table/user-table.component'
       ).then((mod) => mod.UserTableComponent),
   },
+  {
+    path: 'weekdays-widget-demo',
+    loadComponent: () =>
+      import(
+        './features/weekdays/components/weekdays-widget/weekdays-widget.component'
+      ).then((mod) => mod.WeekdaysWidgetComponent),
+  },
   { path: '**', redirectTo: 'movies', pathMatch: 'full' },
 ];
 
